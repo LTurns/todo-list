@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: blue;
 }
 
 .App-logo {
@@ -35,4 +36,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.todo-list {
+  text-align: center;
+  padding-top: 10%;
+  /* height: 100%;
+  width: 100%; */
+}
+
+button {
+  padding: 2%;
+  width: 200px;
+  margin: 1%;
+  border-radius: 3%;
+  border: none;
+}
+
+.todo-input {
+  width: 500px;
+  padding: 1%;
+  border-radius: 3%;
+  border: 1px solid rgb(192, 192, 249);
+  margin-top: 2%;
+}
+
+.todo {
+  padding: 2%;
+  border: none;
+  background: grey;
 }
